@@ -6,6 +6,12 @@ logging:
   level:
     ROOT: info
     com.github.novicezk.midjourney: debug
+
+spring:
+  redis:
+    host: 192.168.2.100
+    port: 6379
+    password: 258199199
 knife4j:
   enable: true
   openapi:
